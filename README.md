@@ -1,6 +1,6 @@
 # 📊 Global NPS Breakdown by Question & Answer
 
-This notebook performs advanced **data manipulation and NPS analysis**, computing **Promoters, Passives, and Detractors** for **each answer** to **each survey question**, segmented by **company** — and in one case, by **user group**.
+This notebook performs advanced **data manipulation and NPS analysis**, computing **Promoters, Passives, and Detractors** for **each answer** to **survey question**, segmented by **company** — and in one case, by **user group**.
 
 It aggregates and **weights results**, providing per-answer insights and a **global NPS summary** across the dataset.
 
@@ -9,7 +9,7 @@ It aggregates and **weights results**, providing per-answer insights and a **glo
 ## 🎯 Objective
 
 To calculate and present:
-- **NPS scores per answer per question**
+- **NPS scores per answer**
 - Weighted contributions from multiple companies (and optionally user groups)
 - A **global view** of satisfaction trends across the dataset
 
@@ -18,7 +18,7 @@ To calculate and present:
 ## ✅ Main Features
 
 ### 🔍 1. Per-Answer Breakdown
-- For **each question**, it counts how many **Promoters (9–10)**, **Passives (7–8)**, and **Detractors (0–6)** selected each **specific answer option**
+- For **question**, it counts how many **Promoters (9–10)**, **Passives (7–8)**, and **Detractors (0–6)** selected each **specific answer option**
 - This is done **per company**, with optional segmentation by **user group**
 
 ### ⚖️ 2. Weighted Aggregation
